@@ -1,0 +1,156 @@
+/* Styling for the notice panel container */
+.notice-panel {
+    width: 600px;
+    max-width: 100%;
+    margin: 20px 0 0 0;;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Heading styling */
+  .notice-panel h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the post notice form */
+  .post-notice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Input and textarea fields styling */
+  .post-notice input,
+  .post-notice textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input field focus state */
+  .post-notice input:focus,
+  .post-notice textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Button styling for posting notices */
+  .post-notice button {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .post-notice button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Notice list styling */
+  .notice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual notice preview styling */
+  .notice-preview {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .notice-preview:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Notice title and message styling */
+  .notice-preview h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .notice-preview p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons for viewing and deleting notices */
+  .notice-preview button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .notice-preview button:hover {
+    background-color: #2980b9;
+  }
+  
+  .notice-preview button.delete-button {
+    background-color: #e74c3c;
+  }
+  
+  .notice-preview button.delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .notice-panel {
+      padding: 15px;
+    }
+  
+    .post-notice input,
+    .post-notice textarea {
+      font-size: 14px;
+    }
+  
+    .post-notice button {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  
+    .notice-preview h3 {
+      font-size: 18px;
+    }
+  
+    .notice-preview p {
+      font-size: 14px;
+    }
+  
+    .notice-preview button {
+      font-size: 12px;
+      padding: 7px 10px;
+    }
+  }
+  

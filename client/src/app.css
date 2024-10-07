@@ -1,0 +1,14 @@
+
+.timeline-wrapper {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  
+  }
+  
+.notice-panel-wrapper {
+    flex: 1; 
+    padding: 20px; 
+    align-items:flex-start;
+  }
+   
