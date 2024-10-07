@@ -31,6 +31,7 @@
   
   .flip-card-front {
     background-color: #bbb;
+    overflow: hidden;
   }
   
   .flip-card-back {
@@ -39,3 +40,8 @@
     transform: rotateY(180deg);
   }
   
+  .flip-card-front img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  }

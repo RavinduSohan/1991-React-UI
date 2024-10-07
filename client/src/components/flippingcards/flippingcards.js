@@ -1,11 +1,14 @@
 import React from 'react';
-import './FlippingCards.css';
+import './flippingcards.css';
+import flippingimage01 from '../../assets/asset  (1).jpg';
+import flippingimage02 from '../../assets/asset  (2).jpg';
+import flippingimage03 from '../../assets/asset  (3).jpg';
 
 const FlippingCards = () => {
   const features = [
-    { src: 'https://via.placeholder.com/150', description: 'Fast Ticketing' },
-    { src: 'https://via.placeholder.com/150', description: 'Live Train Updates' },
-    { src: 'https://via.placeholder.com/150', description: 'Travel History' },
+    { src: flippingimage01, description: 'Fast Ticketing' },
+    { src: flippingimage02, description: 'Live Train Updates' },
+    { src: flippingimage03, description: 'Travel History' },
   ];
 
   return (

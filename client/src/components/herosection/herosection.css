@@ -1,11 +1,14 @@
 .hero-section {
     position: relative;
     text-align: center;
+    overflow: hidden;
   }
   
   .hero-image {
     width: 100%;
     height: auto;
+    max-height: 600px; 
+  object-fit: cover;
   }
   
   .hero-text {
@@ -17,5 +20,6 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
   }
   

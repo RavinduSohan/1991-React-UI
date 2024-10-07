@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
-import HeroSection from './HeroSection';
-import FlippingCards from './FlippingCards';
-import FeaturesSection from './FeaturesSection';
-import Footer from './Footer';
-import './App.css';
+import Navbar from './components/navbar/navbar.js';
+import HeroSection from './components/herosection/herosection.js';
+import FlippingCards from './components/flippingcards/flippingcards.js';
+import FeaturesSection from './components/featuressection/featuressection.js';
+import Footer from './components/footer/footer.js';
+import Carousel from './components/carousel/carousel.js';
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <FlippingCards />
+      <Carousel />
       <FeaturesSection />
       <Footer />
     </div>
