@@ -1,0 +1,21 @@
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .feature-description h3 {
+    color: #3498db;
+  }
+  
+  .feature-item img {
+    border-radius: 8px;
+  }
+  
